@@ -89,6 +89,7 @@
     <Compile Include="Medium\MaxProfitForMultipleSell.cs" />
     <Compile Include="Easy\MaxSubArrayKadanesAlgo.cs" />
     <Compile Include="Medium\NestedIteratorImplementation.cs" />
+    <Compile Include="Medium\NumberOfIslandsCountBFS.cs" />
     <Compile Include="Medium\PalindromePartitioningBacktracking.cs" />
     <Compile Include="Medium\PossibleUniquePaths.cs" />
     <Compile Include="Medium\ShuffleAnArray.cs" />

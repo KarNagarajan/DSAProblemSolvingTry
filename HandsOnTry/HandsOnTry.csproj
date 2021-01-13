@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C8F7EE35-FC62-44B1-A1B4-0508A735EE00}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>HandsOnTry</RootNamespace>
+    <AssemblyName>HandsOnTry</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BacktrackingTry\PerumtationOfArrayElementsTry.cs" />
+    <Compile Include="BacktrackingTry\SubsetsForArrayTry.cs" />
+    <Compile Include="Easy\BuySellOnceMaxProfit.cs" />
+    <Compile Include="Easy\ClimbStairsOneAndTwoJumps.cs" />
+    <Compile Include="Easy\CountEachCharacterAndSay.cs" />
+    <Compile Include="Easy\CountOfMatchesInTournament.cs" />
+    <Compile Include="Easy\RangeSumOfBST.cs" />
+    <Compile Include="Easy\TwoSumIVBSTTargetSum.cs" />
+    <Compile Include="Easy\TwoSumToGetTarget.cs" />
+    <Compile Include="HelpersAndExtensions\NestedInteger.cs" />
+    <Compile Include="Medium\ContainerWithMostWater.cs" />
+    <Compile Include="Medium\CountColorsInArraySort.cs" />
+    <Compile Include="Medium\CountNumberOfPrimesWithinANumber.cs" />
+    <Compile Include="Easy\CycleInLinkedList.cs" />
+    <Compile Include="Easy\DeleteNodeLinkedList.cs" />
+    <Compile Include="Easy\FindTheDuplicateNumber.cs" />
+    <Compile Include="Easy\FindMaxWealthCustomer.cs" />
+    <Compile Include="Easy\FizzBuzz.cs" />
+    <Compile Include="Easy\GenerateOneTriangle.cs" />
+    <Compile Include="Medium\FourSumAddToTarget.cs" />
+    <Compile Include="Medium\FourSumMultipleArraysTargetToZero.cs" />
+    <Compile Include="Medium\GeneratePossibleParanthesisBacktracking.cs" />
+    <Compile Include="Easy\GetIntersectionNodeInTwoLinkedLists.cs" />
+    <Compile Include="Easy\GetMinElementFromStack.cs" />
+    <Compile Include="Easy\GoalParserInterpretation.cs" />
+    <Compile Include="Medium\GroupAnagramArrayElements.cs" />
+    <Compile Include="HelpersAndExtensions\Extensions.cs" />
+    <Compile Include="HelpersAndExtensions\ListNode.cs" />
+    <Compile Include="HelpersAndExtensions\TreeNode.cs" />
+    <Compile Include="Easy\IntersectionElementsOfTwoArrays.cs" />
+    <Compile Include="Easy\IsHappyNumber.cs" />
+    <Compile Include="Easy\IsNumberAPowerOfThree.cs" />
+    <Compile Include="Easy\IsSentenceAPalindromeAlphaNumeric.cs" />
+    <Compile Include="Easy\IsStackValidPalindrome.cs" />
+    <Compile Include="Easy\IsSymmetricBinaryTree.cs" />
+    <Compile Include="Medium\IsValidSymbolsOpeningClosingProper.cs" />
+    <Compile Include="Easy\KMostFrequentElements.cs" />
+    <Compile Include="Medium\KthSmallestElementInBST.cs" />
+    <Compile Include="Medium\LeastPerfectSquaresWithinNumber.cs" />
+    <Compile Include="Medium\LetterCombinationPhNumbers.cs" />
+    <Compile Include="Medium\LongestCommonPrefixInStrings.cs" />
+    <Compile Include="Easy\MajorityElementFind.cs" />
+    <Compile Include="Easy\MaxDepthOfTree.cs" />
+    <Compile Include="Medium\MaxProfitForMultipleSell.cs" />
+    <Compile Include="Easy\MaxSubArrayKadanesAlgo.cs" />
+    <Compile Include="Medium\NestedIteratorImplementation.cs" />
+    <Compile Include="Medium\PalindromePartitioningBacktracking.cs" />
+    <Compile Include="Medium\PossibleUniquePaths.cs" />
+    <Compile Include="Medium\ShuffleAnArray.cs" />
+    <Compile Include="Medium\ThreeSumAddToZero.cs" />
+    <Compile Include="Easy\MergeTwoSortedArraysIntoFirstArray.cs" />
+    <Compile Include="Medium\MergeTwoSortedLinkedLists.cs" />
+    <Compile Include="Easy\MissingNumberInAnArray.cs" />
+    <Compile Include="Easy\MoveZeroes.cs" />
+    <Compile Include="Easy\NthTribonacciNumber.cs" />
+    <Compile Include="Medium\OddEvenLinkedList.cs" />
+    <Compile Include="Medium\PermutationOfArrayElementsBacktracking.cs" />
+    <Compile Include="Easy\PlusOneToEachArrayElementWithCarryForward.cs" />
+    <Compile Include="Medium\PossibleSubsetsOfArrayBacktracking.cs" />
+    <Compile Include="Medium\ProductOfArrayExceptSelf.cs" />
+    <Compile Include="Medium\ValidSudoku.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Easy\RemoveDuplicatesFromArray.cs" />
+    <Compile Include="Easy\ReverseInteger.cs" />
+    <Compile Include="Easy\ReverseLinkedList.cs" />
+    <Compile Include="Easy\RobHousesAlternateMax.cs" />
+    <Compile Include="Easy\RomanToInt.cs" />
+    <Compile Include="Medium\RotateImage.cs" />
+    <Compile Include="Easy\SingleNumberBitwiseOperator.cs" />
+    <Compile Include="Easy\SortedArrayToBinarySearchTree.cs" />
+    <Compile Include="Easy\SquareRootOfNumber.cs" />
+    <Compile Include="Easy\SubstringInString.cs" />
+    <Compile Include="Easy\TitleToNumber.cs" />
+    <Compile Include="Easy\TrailingZeroesInFactorial.cs" />
+    <Compile Include="Easy\TwoListsAnagram.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

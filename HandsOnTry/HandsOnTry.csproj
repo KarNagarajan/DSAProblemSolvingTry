@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlgoExpert\Array\ThreeNumberSum.cs" />
+    <Compile Include="AlgoExpert\Array\ValidateSubsequence.cs" />
     <Compile Include="BacktrackingTry\PerumtationOfArrayElementsTry.cs" />
     <Compile Include="BacktrackingTry\SubsetsForArrayTry.cs" />
     <Compile Include="Easy\BuySellOnceMaxProfit.cs" />
